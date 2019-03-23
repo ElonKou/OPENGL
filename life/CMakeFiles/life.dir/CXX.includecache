@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/elonkou/ELONKOU/OPENGL/life/lib/core.h
+
+/home/elonkou/ELONKOU/OPENGL/life/src/main.cpp
+GL/glut.h
+-
+cstdio
+-
+iostream
+-
+../lib/core.h
+/home/elonkou/ELONKOU/OPENGL/life/lib/core.h
+

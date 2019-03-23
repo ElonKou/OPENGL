@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/elonkou/ELONKOU/OPENGL/life/lib/core.cpp
+core.h
+/home/elonkou/ELONKOU/OPENGL/life/lib/core.h
+cstdio
+-
+cstdlib
+-
+iostream
+-
+sys/time.h
+-
+
+/home/elonkou/ELONKOU/OPENGL/life/lib/core.h
+

@@ -1,0 +1,6 @@
+/home/elonkou/ELONKOU/OPENGL/life/CMakeFiles/edit_cache.dir
+/home/elonkou/ELONKOU/OPENGL/life/CMakeFiles/rebuild_cache.dir
+/home/elonkou/ELONKOU/OPENGL/life/CMakeFiles/life.dir
+/home/elonkou/ELONKOU/OPENGL/life/lib/CMakeFiles/rebuild_cache.dir
+/home/elonkou/ELONKOU/OPENGL/life/lib/CMakeFiles/edit_cache.dir
+/home/elonkou/ELONKOU/OPENGL/life/lib/CMakeFiles/core.dir
