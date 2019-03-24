@@ -11,6 +11,8 @@
 /home/elonkou/ELONKOU/OPENGL/life/src/main.cpp
 GL/glut.h
 -
+algorithm
+-
 cstdio
 -
 iostream

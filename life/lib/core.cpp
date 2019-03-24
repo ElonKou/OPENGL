@@ -6,10 +6,10 @@
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 #include "core.h"
+#include <sys/time.h>
 #include <cstdio>
 #include <cstdlib>
 #include <iostream>
-#include <sys/time.h>
 #define random(x) (rand() % x)
 
 int randomInt(int range) {
@@ -31,9 +31,21 @@ void addLife(int (&world)[HEIGHT][WIDTH]) {
     if (ADD_LIFE == 1) {
         for (int i = 0; i < ADD_CNT; ++i) {
             int x = randomInt(HEIGHT);
-            int y = randomInt(WIDTH) ;
+            int y = randomInt(WIDTH);
             world[x][y] = 1;
         }
+    }
+}
+
+void addOne(int (&world)[HEIGHT][WIDTH], int x, int y) {
+    if (x < WIDTH && y < HEIGHT && x >= 0 && y >= 0) {
+        world[y][x] = 1;
+    }
+}
+
+void clearOne(int (&world)[HEIGHT][WIDTH], int x, int y) {
+    if (x < WIDTH && y < HEIGHT && x >= 0 && y >= 0) {
+        world[y][x] = 0;
     }
 }
 

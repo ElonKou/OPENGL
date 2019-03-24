@@ -9,13 +9,13 @@
 /home/elonkou/ELONKOU/OPENGL/life/lib/core.cpp
 core.h
 /home/elonkou/ELONKOU/OPENGL/life/lib/core.h
+sys/time.h
+-
 cstdio
 -
 cstdlib
 -
 iostream
--
-sys/time.h
 -
 
 /home/elonkou/ELONKOU/OPENGL/life/lib/core.h
