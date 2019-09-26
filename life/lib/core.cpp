@@ -82,7 +82,14 @@ int surive(int num, int type) {
         return 1;
     } else if (num == 2) {
         return type;
-    } else {
+    }
+    else if(num == 6){
+        return 1;
+    }
+    else if(num == 7){
+        return -1;
+    }
+     else   {
         return 0;
     }
 }

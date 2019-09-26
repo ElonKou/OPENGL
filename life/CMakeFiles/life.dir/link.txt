@@ -1,1 +1,0 @@
-/usr/bin/c++      CMakeFiles/life.dir/src/main.cpp.o  -o life -rdynamic lib/libcore.a -lGL -lglut -lGLU 
